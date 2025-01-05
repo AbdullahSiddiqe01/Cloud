@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="clear.png"/>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <div class="main">
+        <div class="top">
+            <input placeholder="enter your city" class="search"/>
+            <div class="megnify" type="button"><img id="img" src="search.png"/></div>
+        </div>
+        <div class="center-img">
+            <img class="mid-img" src="clouds.png" alt="cloud image"/>
+        </div>
+        <div class="mid-content">
+            <div class="maal">
+                <h1 class="main-h1">
+                    7°C
+                </h1>
+                <h1 class="h1-text">
+                    New York
+                </h1>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="humudity">
+                <img class="hum-img" src="humidity.png"/>
+                <h2 class="hum-h2">
+                    40%
+                </h2>
+                <p>Humidity</p>
+            </div>
+            <div class="wind">
+                <img class="hum-img" src="wind.png"/>
+                <h2 class="wind-h2">48 Km/hr</h2>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+    <div class="state">
+    </div>
+    <Script src="app.js"></Script>
+</body>
+</html>
